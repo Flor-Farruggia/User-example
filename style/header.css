@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.header {
+    background-color: #2E355B;
+    color: #CDD0FF;
+    border: #FFFFFF 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+@media only screen and (min-width: 360px) {
+    .header h1 {
+        text-align: start;
+        font-family: 'PT Serif', serif;
+        font-weight: 700;
+        font-style: bold;
+        font-size: 40px;
+        margin-left: 2%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .header img {
+        display: none;
+    }
+    .inicio {
+            display:flex;
+            font-family: 'PT Serif', serif;
+            font-weight: 400;
+            font-size: 22px;
+            padding-right: 2%;
+    }
+    .inicio a {
+        text-decoration: none;
+        color: #CDD0FF;
+        border-radius: 4px;
+        border-width: 20px;
+    }
+    .inicio a:hover {
+        background-color: #CDD0FF;
+        color: #2E355B;
+    }
+ }
+@media only screen and (min-width: 900px) {
+    .inicio {
+        font-size: 30px;
+        padding-right: 2%;
+    }
+}

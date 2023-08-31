@@ -1,0 +1,55 @@
+@import url('https://fonts.google.com/share?selection.family=Roboto');
+/**font-family: 'Roboto', sans-serif;*/
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+@media only screen and (min-width: 360px) {
+    .footer a {
+        color: #CDD0FF;
+        border-radius: 2px;
+        padding: 16px;
+    }
+    .footer a:hover {
+        background-color: #CDD0FF;
+        color: #2E355B;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color:  #2E355B;
+        color: #CDD0FF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    .left-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 1%;
+    }
+    .right-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 1%;
+        padding-bottom: 2%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .footer {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 20px;
+    }
+}
